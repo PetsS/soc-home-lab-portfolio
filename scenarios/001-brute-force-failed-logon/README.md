@@ -69,8 +69,12 @@ Activity confirmed benign (deliberate test).
 ## Screenshots
 
 ![Elastic alert detail](screenshots/alert-detail.png)
+
 ![Timeline correlation](screenshots/timeline-4625-4624.png)
+
 ![Sysmon process chain](screenshots/sysmon-process-tree.png)
+
+![Sysmon correlation](screenshots/sysmon-correlation.png)
 
 ## Analyst Notes
 
