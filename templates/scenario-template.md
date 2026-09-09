@@ -40,7 +40,7 @@ Short paragraph connecting the evidence into a conclusion.
 
 ## Screenshots
 
-![description](/filename.png "screenshot")
+- Screenshots
 
 ## Analyst Notes
 
