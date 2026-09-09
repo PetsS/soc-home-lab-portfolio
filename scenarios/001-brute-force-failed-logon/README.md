@@ -31,10 +31,10 @@ threshold rule; confirmed as a controlled test, not a real intrusion.
 
 **Sysmon correlation — Logon ID `0xfde41e` confirmed across:**
 
-| Time (UTC) | Event | Process | Parent | User |
+| Time | Event | Process | Parent | User |
 |---|---|---|---|---|
-| 13:50:57.660 | Sysmon EID 1 | userinit.exe | winlogon.exe | LAB\anguyen |
-| 13:50:58.114 | Sysmon EID 1 | explorer.exe | userinit.exe | LAB\anguyen |
+| 14:50:57.660 | Sysmon EID 1 | userinit.exe | winlogon.exe | LAB\anguyen |
+| 14:50:58.114 | Sysmon EID 1 | explorer.exe | userinit.exe | LAB\anguyen |
 
 Matching Logon ID across the 4624 and both Sysmon events confirms a genuine session started for
 `anguyen` immediately following the successful authentication — not just a logged auth event with
