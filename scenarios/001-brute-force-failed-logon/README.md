@@ -4,7 +4,7 @@
 |---|---|
 | **Detection Rule** | Multiple Failed Logons - Possible Brute Force (custom Threshold rule) |
 | **Date/Time** | 2026-09-07, 14:50:37–14:50:58 |
-| **Analyst** | Peter |
+| **Analyst** | Peter Szots |
 | **Severity** | Medium |
 | **Host** | WIN11-01 (10.10.10.101) |
 | **User** | LAB\anguyen |
