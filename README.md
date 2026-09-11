@@ -35,6 +35,7 @@ Built as hands-on preparation for **UK SOC analyst / cybersecurity analyst** rol
 | # | Scenario | ATT&CK Technique | Verdict | Report |
 |---|---|---|---|---|
 | 001 | Multiple failed logons → successful authentication | [T1110 – Brute Force](https://attack.mitre.org/techniques/T1110/) | True Positive (Simulated) | [View](scenarios/001-brute-force-failed-logon/README.md) |
+| 002 | Powershell remote file download and execution using Download Cradle | [T1105 - Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/); [T1059.001 - Command and Scripting Interpreter: PowerShell](https://attack.mitre.org/techniques/T1059/001/) | True Positive (Simulated) | [View](scenarios/002-powershell-download-cradle/README.md) |
 
 *(New rows are added here as each scenario is completed — see the template for the format.)*
 
@@ -64,6 +65,6 @@ Full detail, including firewall rules, DHCP/NTP config, and Suricata tuning deci
 
 ## About
 
-Built and documented by [Peter](https://github.com/PetsS) as part of a structured and phased home lab project —
+Built and documented by [Peter Szots](https://github.com/PetsS) as part of a structured and phased home lab project —
 architecture decided before building, one capability added at a time, each investigation
 documented the way a real SOC incident report would be written.
