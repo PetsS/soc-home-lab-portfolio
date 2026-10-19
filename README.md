@@ -37,6 +37,7 @@ Built as hands-on preparation for **UK SOC analyst / cybersecurity analyst** rol
 | 001 | Multiple failed logons → successful authentication | [T1110 – Brute Force](https://attack.mitre.org/techniques/T1110/) | True Positive (Simulated) | [View](scenarios/001-brute-force-failed-logon/README.md) |
 | 002 | Powershell remote file download and execution using Download Cradle | [T1105 - Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/); [T1059.001 - Command and Scripting Interpreter: PowerShell](https://attack.mitre.org/techniques/T1059/001/) | True Positive (Simulated) | [View](scenarios/002-powershell-download-cradle/README.md) |
 | 003 | Credential Dumping from LSASS.exe Memory using comsvcs.dll | [T1003.001 - OS Credential Dumping: LSASS Memory](https://attack.mitre.org/techniques/T1003/001/) | True Positive (Attempted) | [View](scenarios/003-credential-dumping/README.md) |
+| 004 | Run key persistence | [T1547.001 - Registry Run Keys / Startup Folder](https://attack.mitre.org/techniques/T1547/001/) | True Positive (Simulated) | [View](scenarios/004-run-key-persistence/README.md) |
 
 ---
 
